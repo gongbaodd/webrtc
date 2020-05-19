@@ -52,5 +52,9 @@
     "type": "tsc --noEmit",
     "audit:ci": "audit-ci -m",
     "commit": "git-cz"
+  },
+  "dependencies": {
+    "getusermedia": "^2.0.1",
+    "socket.io": "^2.3.0"
   }
 }

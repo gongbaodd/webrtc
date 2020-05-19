@@ -5,5 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web RTC demo</title>
   </head>
-  <body></body>
+  <body>
+    <div id="main">
+      <table>
+        <tr>
+          <th>Local video</th>
+          <th>Remote video</th>
+        </tr>
+
+        <tr>
+          <td>
+            <video autoplay id="localVideo"></video>
+          </td>
+          <td>
+            <video autoplay id="remoteVideo"></video>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <textarea
+              rows="4"
+              cols="60"
+              id="dataChannelSend"
+              disabledplaceholder="This will be enabled when data channel is up..."
+            ></textarea>
+          </td>
+
+          <td>
+            <textarea id="dataChannelReceive" cols="60" rows="4"></textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <button id="sendButton" disabled>Send</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./src/index.ts"></script>
+  </body>
 </html>
