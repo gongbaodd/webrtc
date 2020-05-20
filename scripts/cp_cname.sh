@@ -1,0 +1,1 @@
+cp CNAME ./__sapper__/export/

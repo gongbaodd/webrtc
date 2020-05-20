@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#333333" />
+    %sapper.base%
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials" />
+    <link rel="icon" type="image/png" href="icons/icon-48x48.png" />
+    %sapper.styles% %sapper.head%
+  </head>
+  <body>
+    <div id="sapper">%sapper.html%</div>
+    <script
+      src="//unpkg.com/github-corners@0.1.0/dist/embed.min.js"
+      data-href="https://github.com/gongbaodd/css_playground"
+    ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-159827550-5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-159827550-5");
+    </script>
+    <script
+      src="https://browser.sentry-cdn.com/5.15.0/bundle.min.js"
+      integrity="sha384-+ysfQckQvwCB5SppH41IScIz/Iynt2pePnJNMl+D7ZOzDJ+VYhQEuwB0pA60IDM0"
+      crossorigin="anonymous"
+    ></script>
+    %sapper.scripts%
+  </body>
+</html>

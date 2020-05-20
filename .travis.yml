@@ -1,0 +1,14 @@
+language: node_js
+script:
+  - yarn export
+  - yarn cp:cname
+  - yarn cy:test
+  - if [ "$TRAVIS_BRANCH" = "build" ]; then yarn deploy; fi
+
+cache:
+  npm: true
+  directories:
+    - ~/.cache
+
+after_script:
+  - bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN > /dev/null

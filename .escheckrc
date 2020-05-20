@@ -1,0 +1,5 @@
+{
+  "ecmaVersion": "es5",
+  "module": false,
+  "files": "./__sapper__/export/client/*.js"
+}

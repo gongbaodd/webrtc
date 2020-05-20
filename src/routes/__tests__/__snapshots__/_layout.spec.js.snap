@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout component should render component correctly 1`] = `
+<body>
+  <div>
+     
+    <main>
+      <section
+        class="content"
+      />
+       
+      <div
+        class="menu"
+      >
+        <ul>
+          <li
+            class="selected"
+          >
+            <a
+              href="."
+            >
+              home
+            </a>
+             
+          </li>
+          
+          <li>
+            <a
+              href="aaa"
+              rel="prefetch"
+            >
+              aaa
+            </a>
+             
+          </li>
+          
+          <li>
+            <a
+              href="bbb"
+              rel="prefetch"
+            >
+              bbb
+            </a>
+             
+          </li>
+          
+        </ul>
+      </div>
+    </main>
+  </div>
+</body>
+`;

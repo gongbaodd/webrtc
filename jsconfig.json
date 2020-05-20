@@ -10,7 +10,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
-    "skipLibCheck": true
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules"]
 }
