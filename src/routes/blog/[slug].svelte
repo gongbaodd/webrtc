@@ -33,6 +33,11 @@
     min-width: 100px;
     width: 30%;
   }
+
+  .content {
+    margin: 0 auto;
+    max-width: 1024px;
+  }
 </style>
 
 <svelte:head>
