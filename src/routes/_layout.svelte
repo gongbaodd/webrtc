@@ -13,7 +13,6 @@
   import { onMount } from "svelte";
 
   export let posts = [];
-  export let segment;
 
   let items = [];
 
@@ -34,5 +33,4 @@
   <section class="content">
     <slot />
   </section>
-  <Menu {items} selected={segment} />
 </main>
