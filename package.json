@@ -28,7 +28,7 @@
     "@rollup/plugin-replace": "2.3.1",
     "@testing-library/jest-dom": "5.3.0",
     "@testing-library/svelte": "3.0.0",
-    "@types/node": "13.13.3",
+    "@types/node": "13.13.14",
     "@typescript-eslint/eslint-plugin": "2.26.0",
     "@typescript-eslint/parser": "2.26.0",
     "audit-ci": "2.5.1",
